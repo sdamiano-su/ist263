@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Week 4 Forms</title>
+    </head>
+    <body>
+        <!-- action says what webpage will process form 
+        post says how data will be sent -->
+        <form action="" method="post">
+            <!-- label tells user what to enter
+            for links the label to the form element 
+            value in for mudt match value in input id-->
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname" name="fullname"><br>
+
+
+            <label for="complaints">Complaints</label><br>
+            <textarea name= "complaint" id="complaint"></textarea><br>
+            <!-- radio button must be linked witht the same name value
+            id values must be unique-->
+            <label for="important1"> important</label>
+            <input type="radio" name="important" id="important1"><br>
+            <label for="important2">not important</label>
+            <input type = "radio" name = "important" id = "important2"><br>
+
+            <p>What conact methods work?</p>
+            <label for = "method1">phone</label>
+            <input type="checkbox" id= "method1" name="method1">
+            <label for= method2>email</label>
+            <input type = "checkbox" id ="method2" name= "method 2"><br>
+
+            <label>What time do you want to be contacted?</label>
+            <select id="time" name = "time">
+                <option value="morning">morning</option>
+                <option value="afternoon">afternoon</option>
+                <option value= "evening">evening</option>
+            </select>
+
+            <input type="submit" value="send complaint">
+        
+        </form>
+    </body>
+</html>
