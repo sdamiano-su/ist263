@@ -1,0 +1,33 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+    background-color: #98a1c0;
+    color:#434449;
+}
+h1,h2 {color:#191970;
+
+}
+.special {color:#191970;}
+
+.evenrow {background-color:#708090;
+}
+h1 {font-size: 4em;}
+h2 {font-size: 2em;
+}
+a {color:#a4c7d4;}
+nav {background-color: #bbd1e7;
+   padding: 10px 
+}
+nav {margin-bottom: 30px}
+
+nav a {color: #133e66;}
+nav a:hover {background-color: #a3caf1}
+
+.quote {float: right;}
+
+
+.row1 {display: flex; background-color: #90a6bd; border-radius: 1em; padding: 20px;}
+.column1 {flex: 1; order: 1; padding: 20px;}
+.column2 {flex: 1; order: 2; padding: 20px;}
+.row2 {display: flex; background-color: #969da5; border-radius: 1em; padding: 20px;}
+.column3 {flex: 1; order: 1; padding: 20px;}
+.column4 {flex: 1; order: 2; padding: 20px;}
