@@ -1,7 +1,7 @@
 body{
     font-family: "Times New Roman", Times, serif;
     background-color: #98a1c0;
-    color:#434449;
+    color:#111112;
     font-size: 16px;
     line-height: 2em;
 }
@@ -15,7 +15,7 @@ h1,h2 {color:#191970;
 h1 {font-size: 4em;}
 h2 {font-size: 2em;
 }
-a {color:#5f7279;}
+a {color:#111112;}
 nav {background-color: #bbd1e7;
    padding: 10px 
 }
