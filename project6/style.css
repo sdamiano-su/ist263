@@ -1,0 +1,56 @@
+body{
+    background-color:#b9e0e9;
+    font-family: "Times New Roman", Times, serif;
+    color:#0e9dbd;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.center {
+    display: block;
+    width: 150px;
+    margin: 1em auto;
+  }
+
+h1, h2{
+    color: #742e94;
+    border-radius: 2em;
+    padding: 2px;
+}
+
+nav {font-size: 20px; text-align: center; display: flex; justify-content: space-between; padding: 5px; margin: 3em;}
+nav a {color:#742e94;}
+
+
+.page1 {width: 300px;}
+.clear {clear: both;}
+.page2 {width: 300px;}
+.page3 {width: 300px;}
+.page31 {width: 200px; padding: 15px;}
+
+.centeredtext {text-align: center;}
+
+.part1 {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 2em;}
+.part1 article {padding: 20px;}
+.title1, .title2, .title3 {margin: 10px;}
+.title1 {flex: 1; order: 3;} 
+.title2 {flex: 1; order: 2;}
+.title3 {flex: 1; order: 1;}
+
+.part2 {display: flex; flex-wrap: wrap;  border-radius: 1em; padding: 20px; margin: 2em;}
+.part2 article {padding: 10px; margin: 20px;}
+.page2 {margin: 10px;}
+.page21 {flex: 1; order: 2; } 
+.page22 {flex: 1; order: 1;}
+
+.part3 {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 2em;}
+.part3 article {padding: 10px; margin: 20px;}
+
+.page31 {flex: 1; order: 2; } 
+.page32 {flex: 1; order: 1;}
+
+footer p {color: #088b8b;}
+
+.logo {width: 60px; margin: 20px;}
+
+@media only screen and (max-width: 600px) {}
