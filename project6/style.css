@@ -13,44 +13,69 @@ body{
   }
 
 h1, h2{
-    color: #742e94;
+    color: #0A3F4D;
     border-radius: 2em;
-    padding: 2px;
+    margin: 10px;
 }
+.hr {color: #0A3F4D;}
 
-nav {font-size: 20px; text-align: center; display: flex; justify-content: space-between; padding: 5px; margin: 3em;}
-nav a {color:#742e94;}
+.banner{width: 100%}
+
+nav {font-size: 20px; text-align: center; display: flex; justify-content: space-between;  margin: 70px;}
+nav a {color:#0A3F4D; width: 90%; background-color: azure;}
 
 
-.page1 {width: 300px;}
 .clear {clear: both;}
-.page2 {width: 300px;}
-.page3 {width: 300px;}
-.page31 {width: 200px; padding: 15px;}
+
 
 .centeredtext {text-align: center;}
 
-.part1 {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 2em;}
-.part1 article {padding: 20px;}
-.title1, .title2, .title3 {margin: 10px;}
-.title1 {flex: 1; order: 3;} 
-.title2 {flex: 1; order: 2;}
-.title3 {flex: 1; order: 1;}
+.page1 {display: flex; flex-wrap: wrap; }
+
+.title1, .title3 {background-color: #83a8b3; border-radius: 1em; padding: 20px;}
+.title2 {margin: 2em;}
+
+.pic1, .pic3 {padding: 2em; float: left;}
+.pic2 {padding:20px; float: right;}
 
 .part2 {display: flex; flex-wrap: wrap;  border-radius: 1em; padding: 20px; margin: 2em;}
 .part2 article {padding: 10px; margin: 20px;}
 .page2 {margin: 10px;}
-.page21 {flex: 1; order: 2; } 
-.page22 {flex: 1; order: 1;}
+.page21 {flex: 1; order: 1; } 
+.page22 {flex: 1; order: 2;}
 
-.part3 {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 2em;}
+.part3 {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 2em; background-color: #8ec0ce;}
 .part3 article {padding: 10px; margin: 20px;}
 
-.page31 {flex: 1; order: 2; } 
-.page32 {flex: 1; order: 1;}
+.pic33 {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+.page31 {flex: 1;} 
+.page32 {flex: 1;}
+.page33 {border-radius: 1em; padding: 20px; margin: 2em;}
 
 footer p {color: #0A3F4D;}
 
-.logo {width: 60px; margin: 20px;}
+.logo {width: 50px; margin: 20px;}
 
 @media only screen and (max-width: 600px) {}
+
+.part2 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
