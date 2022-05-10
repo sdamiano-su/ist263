@@ -1,7 +1,7 @@
 body{
     background-color:#b9e0e9;
     font-family: "Times New Roman", Times, serif;
-    color:#0A3F4D;
+    color:#072933;
     font-size: 16px;
     line-height: 2em;
 }
@@ -13,16 +13,16 @@ body{
   }
 
 h1, h2{
-    color: #0A3F4D;
+    color: #072933;
     border-radius: 2em;
     margin: 10px;
 }
-.hr {color: #0A3F4D;}
+.hr {color: #072933;}
 
 .banner{width: 100%}
 
 nav {font-size: 20px; text-align: center; display: flex; justify-content: space-between;  margin: 70px;}
-nav a {color:#0A3F4D; width: 90%; background-color: azure;}
+nav a {color:#072933; width: 90%; background-color: azure;}
 
 
 .clear {clear: both;}
@@ -32,7 +32,7 @@ nav a {color:#0A3F4D; width: 90%; background-color: azure;}
 
 .page1 {display: flex; flex-wrap: wrap; }
 
-.title1, .title3 {background-color: #83a8b3; border-radius: 1em; padding: 20px;}
+.title1, .title3 {background-color: #9bc4d1; border-radius: 1em; padding: 20px;}
 .title2 {margin: 2em;}
 
 .pic1, .pic3 {padding: 2em; float: left;}
@@ -55,7 +55,7 @@ nav a {color:#0A3F4D; width: 90%; background-color: azure;}
 .page32 {flex: 1;}
 .page33 {border-radius: 1em; padding: 20px; margin: 2em;}
 
-footer p {color: #0A3F4D;}
+footer p {color: #072933}
 
 .logo {width: 50px; margin: 20px;}
 
