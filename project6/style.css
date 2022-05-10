@@ -44,8 +44,8 @@ nav a {color:#072933; width: 90%; background-color: azure;}
 .page21 {flex: 1; order: 1; } 
 .page22 {flex: 1; order: 2;}
 
-.part3 {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 2em; background-color: #8ec0ce;}
-.part3 article {padding: 10px; margin: 20px;}
+.part3 article {display: flex; flex-wrap: wrap; border-radius: 1em; padding: 20px; margin: 2em; background-color: #8ec0ce;}
+
 
 .pic33 {display: block;
     margin-left: auto;
