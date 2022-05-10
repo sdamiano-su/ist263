@@ -32,7 +32,7 @@ nav a {color:#072933; width: 90%; background-color: azure;}
 
 .page1 {display: flex; flex-wrap: wrap; }
 
-.title1, .title3 {background-color: #9bc4d1; border-radius: 1em; padding: 20px;}
+.title1, .title3 {background-color: #8ec0ce; border-radius: 1em; padding: 20px;}
 .title2 {margin: 2em;}
 
 .pic1, .pic3 {padding: 2em; float: left;}
